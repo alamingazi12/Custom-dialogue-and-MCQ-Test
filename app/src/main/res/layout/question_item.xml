@@ -35,6 +35,8 @@
                 android:layout_marginStart="10dp"
                 android:id="@+id/radioGroup">
                 <RadioButton
+                    android:checked="false"
+                    android:focusableInTouchMode="true"
                     android:id="@+id/radio_one"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -42,12 +44,16 @@
 
                     />
                 <RadioButton
+                    android:checked="false"
+                    android:focusableInTouchMode="true"
                     android:id="@+id/radio_two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Two"
                     />
                 <RadioButton
+                    android:checked="false"
+                    android:focusableInTouchMode="true"
                     android:id="@+id/radio_three"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

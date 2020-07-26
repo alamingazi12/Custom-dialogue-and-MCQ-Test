@@ -23,6 +23,7 @@ public class SecondActivity extends AppCompatActivity {
         findViewById(R.id.customDialog).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Rect displayRectangle = new Rect();
                 Window window = SecondActivity.this.getWindow();
                 window.getDecorView().getWindowVisibleDisplayFrame(displayRectangle);

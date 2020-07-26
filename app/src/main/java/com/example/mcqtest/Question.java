@@ -8,6 +8,11 @@ public class Question {
     String option3;
     String option4;
     String answer;
+
+    public String getS_code() {
+        return s_code;
+    }
+
     String s_code;
     String givenAns="0";
 
@@ -27,7 +32,7 @@ public class Question {
         this.isAnswered = isAnswered;
     }
 
-    String isAnswered;
+    String isAnswered="0";
 
 
     public Question(String question, String option1, String option2, String option3, String option4, String answer,
